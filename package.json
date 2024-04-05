@@ -1,0 +1,20 @@
+{
+  "name": "simon-game-igm",
+  "version": "1.0.0",
+  "description": "Web version of the classic \"Simon\" memory game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/ignaciomercado4/simon-game-igm)"
+  },
+  "author": "Ignacio G. Mercado",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  }
+}
