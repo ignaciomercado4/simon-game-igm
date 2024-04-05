@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap');
+
+* {
+    font-family: "VT323", monospace;
+}
+
+img {
+    transform: scale(0.4);
+    margin-bottom: 0;
+}
+
+input {
+    width: 40px;
+}
+
+#board {
+    margin-top: 30px;
+    transform: scale(0.8);
+}
+
+
+.square {
+    height: 400px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#square-1 {
+    background-color: rgba(0, 128, 0, 0.767);
+}
+
+#square-2 {
+    background-color: rgba(255, 0, 0, 0.767);
+}
+
+#square-3 {
+    background-color: rgba(255, 255, 0, 0.767);
+}
+
+#square-4 {
+    background-color: rgba(0, 0, 255, 0.767);
+}
