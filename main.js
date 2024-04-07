@@ -75,6 +75,7 @@ function unblockUserInput() {
 }
 
 function getNewSquare() {
+    // Math.floor doesn't seem to work like it did in the teacher's example, but Math.ceil does(? 
     let newSquare = Math.ceil(Math.random() * 4);
     let newSquareId = `#square-${newSquare}`
     return newSquareId;
@@ -94,6 +95,7 @@ function changeRoundNumber(number) {
 
 function handleUserInput(e) {
     let squareClicked = e.target;
+    // e.target also didn't work, but this did. Maybe I'll have to change this in the future.
     let squareId = '#' + squareClicked.id;
     highlight(squareId);
     userSequence.push(squareId);
