@@ -15,28 +15,31 @@ input {
 
 #board {
     margin-top: 30px;
-    transform: scale(0.8);;
+    margin-bottom: 30px;
+    transform: scale(0.7);
+    transform: scaleX(0.8);
 }
-
 
 .square {
     height: 400px;
     font-size: 40px;
     cursor: pointer;
+    font-weight: bolder;
+    opacity: 0.3;
 }
 
 #square-1 {
-    background-color: rgba(0, 128, 0, 0.767);
+    background-color: rgba(0, 128, 0);
 }
 
 #square-2 {
-    background-color: rgba(255, 0, 0, 0.767);
+    background-color: rgba(255, 0, 0);
 }
 
 #square-3 {
-    background-color: rgba(255, 255, 0, 0.767);
+    background-color: rgba(255, 255, 0);
 }
 
 #square-4 {
-    background-color: rgba(0, 0, 255, 0.767);
+    background-color: rgba(0, 0, 255);
 }
